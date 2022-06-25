@@ -1,0 +1,22 @@
+Zadanie.3
+C.SELECT City 
+FROM CoffeShop
+WHERE Product = "Capuccino" or "Flat White"
+
+B.SELECT Product
+FROM CoffeShop 
+WHERE Customer ref = "william thompson_86" or "mark taylor_113"
+
+A.SELECT Product 
+FROM CoffeShop 
+WHERE City = not like "Philadelphia" 
+GROUP BY Product 
+HAVING Product Like "Latte" or "Long Black"
+
+
+Zadanie 2
+- git status
+- git add .
+- git commit -m ”opis commita”
+- git remote add origin github.com:aaddaam/repozytorium.git
+- git push
